@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body, html{
+    background-color: rgb(33, 33, 41);
+    cursor:cell;
+    width: 100%;
+    height: 100vh;
+    overflow:hidden;
+    position: relative;
+}
+.person-animation{
+    position:absolute;
+    left:100px;
+    top: 100px;
+    transition: all 0.2s ease;
+}
+.ambient{
+    width: 90%;
+    height: 90%;
+    position: relative;
+}
